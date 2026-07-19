@@ -248,4 +248,6 @@ sync
 
 dd if="$DEV" bs=4M iflag=fullblock,count_bytes count="$COUNT_BYTES" status=progress | gzip -c > "$OUT"
 
+chown "$SUDO_USER" "$OUT"
+
 echo "rebottle: wrote $OUT" >&2
