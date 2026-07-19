@@ -7,7 +7,7 @@ This tool can create image files from Raspberry Pi OS trixie installations by sh
 To use it, simply call:
 
 ```bash
-sudo rebottle.sh <BLOCK-DEVICE> <IMAGE-FILE-NAME.gz>
+sudo rebottle.sh <BLOCK-DEVICE> <IMAGE-FILE-NAME.img.gz>
 ```
 
 It needs `sudo` permissions for a few of its operations, so call it with sudo.

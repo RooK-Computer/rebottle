@@ -4,9 +4,9 @@ set -euo pipefail
 
 usage() {
 	cat <<'EOF'
-Usage: rebottle <block-device> <output-image.gz>
+Usage: sudo rebottle <block-device> <output-image.img.gz>
 
-Converts a Raspberry Pi OS (Trixie) SD card back into a compressed image.
+Converts a Raspberry Pi SD card back into a compressed image.
 
 Arguments:
   <block-device>       Path to the SD card block device (e.g. /dev/sdb, /dev/mmcblk0)
